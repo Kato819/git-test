@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HIROKI's PORTFOLIO</title>
+    <meta name="description" content="スタートアップのためのデジタルマーケティングを支援" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./umd/gsap.js"></script>
+    <script src="./umd/ScrollTrigger.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="js_body">
+    <header class="l_header">
+        <h1 class="l_header-logo">
+        <a href="index.html" class=""><span class="logo-sub">HIROKI's</span><br><span class="logo-main">PORTFOLIO</span></a>
+        </h1>
+
+        <div class="top_kv_btn-wrapper">
+        <a href="contact.html" class="m_btn m_btn__mail">無料で相談する</a>
+        </div>
+
+        <nav class="l_header-nav js_navigation">
+        <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+            <a href="index.html" class="l_header-nav_link">トップ</a>
+            </li>        
+            <li class="l_header-nav_item">
+            <a href="#about" class="l_header-nav_link">自己紹介</a>
+            </li>
+            <li class="l_header-nav_item">
+            <a href="#service" class="l_header-nav_link">サービス内容</a>
+            </li>
+            <li class="l_header-nav_item">
+            <a href="#works" class="l_header-nav_link">実績</a>
+            </li>
+        </ul>
+        </nav>
+        <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        </button>
+
+    </header>   
+
+    <div class="kv" id=>
+        <div class="m_kv_box">
+        <p class="m_kv_copy js_copy">
+            無料相談
+        </p>
+        </div>
+    <!-- /.top_kv-inner -->
+    </div>
+    <!-- /.top_kv -->
+    <main class="contact_main">
+        <p class="contact-text">
+        お問い合わせは24時間いつでもお待ちしております。<br>
+        お気軽にお問い合わせください。
+        </p>
+        <form class="c-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdZo4ppJBsztP4t0kTOH9xfg6oJy2dgjjbRz0yXHh8g4JNwdQ/formResponse" 
+        method="POST"    
+        target="hidden_iframe"
+        onsubmit="submitted = true;"
+        class="c-form">
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-name"
+            >お名前・会社名<span class="c-form__required">必須</span></label
+            >
+            <input
+            name="entry.1454377918"
+            class="c-form__input"
+            id="field-name"
+            placeholder="株式会社 山田"
+            type="text"
+            required="required"
+            />
+
+        </div>
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-mail"
+            >メールアドレス<span class="c-form__required">必須</span></label>
+            <input
+            name="entry.1383662819"
+            class="c-form__input"
+            id="field-mail"
+            placeholder="sample@gmail.com"
+            type="email"
+            required="required"
+            />
+        </div>
+
+        <div class="c-form__item">
+            <label class="c-form__label" for="field-message">メッセージ内容<span class="c-form__required">必須</span></label>
+            <textarea name="entry.1057813290" class="c-form__input" id="field-message" placeholder="お問い合わせ内容" required="required"></textarea>
+        </div>
+        <div class="c-form__submit">
+            <button type="submit">送信する</button>
+        </div>
+        <script type="text/javascript">
+            var submitted = false;
+        </script>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+        </form>
+    </main>
+
+    <footer class="l_footer">
+        <p class="l_footer_logo">HIROKI's PORTFOLIO</p>
+        <ul class="l_footer_list">
+            <li class="l_footer_item">
+                <a href="index.html" class="l_footer_link">トップ</a>
+            </li>      
+            <li class="l_footer_item">
+                <a href="" class="l_footer_link">自己紹介</a>
+            </li>
+            <li class="l_footer_item">
+                <a href="service.html" class="l_footer_link">サービス内容</a>
+            </li>
+            <li class="l_footer_item">
+                <a href="" class="l_footer_link">実績</a>
+            </li>
+            <li class="l_footer_item">
+                <a href="contact.html" class="l_footer_link">よくある質問</a>
+            </li>
+        </ul>
+        <p class="l_footer-copyright">&copy; 2023 HIROKI's PORTFOLIO</p>
+    </footer>
+
+</body>
+</html>
